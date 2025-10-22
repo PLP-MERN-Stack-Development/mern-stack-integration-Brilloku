@@ -130,6 +130,11 @@ const createPost = async (req, res, next) => {
     // Add user to req.body
     req.body.author = req.user._id;
 
+    // Handle file upload
+    if (req.file) {
+      req.body.featuredImage = `/uploads/${req.file.filename}`;
+    }
+
     const post = await Post.create(req.body);
 
     // Populate author and category
@@ -175,6 +180,11 @@ const updatePost = async (req, res, next) => {
         success: false,
         error: 'Not authorized to update this post',
       });
+    }
+
+    // Handle file upload
+    if (req.file) {
+      req.body.featuredImage = `/uploads/${req.file.filename}`;
     }
 
     post = await Post.findByIdAndUpdate(req.params.id, req.body, {

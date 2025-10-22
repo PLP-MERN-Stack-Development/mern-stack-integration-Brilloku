@@ -6,8 +6,8 @@
 - [x] Create server/.env with MONGODB_URI, PORT, JWT_SECRET
 - [x] Create client/.env with VITE_API_URL
 - [x] Create missing directories: server/routes, server/controllers, server/models, server/middleware, server/utils, client/src/components, client/src/pages, client/src/hooks, client/src/context
-- [ ] Set up MongoDB connection in server
-- [x] Set up React app with Vite in client (create vite.config.js for proxy, index.html, main.jsx, index.css)
+- [x] Set up MongoDB connection in server
+- [x] Set up React app with Vite in client (create vite.config.js for proxy)
 
 ## Phase 2: Back-End Development
 - [x] Create models/Category.js (Mongoose model for categories)
@@ -24,39 +24,39 @@
 - [x] Update server/server.js to import and use new routes/controllers/middleware
 
 ## Phase 3: Front-End Development
-- [ ] Create src/App.jsx with React Router setup
-- [ ] Create components/Navbar.jsx
-- [ ] Create components/Layout.jsx
-- [ ] Create components/PostList.jsx
-- [ ] Create components/PostDetail.jsx
-- [ ] Create components/PostForm.jsx
-- [ ] Create components/CategoryList.jsx
-- [ ] Create pages/Home.jsx
-- [ ] Create pages/Post.jsx
-- [ ] Create pages/CreatePost.jsx
-- [ ] Create pages/EditPost.jsx
-- [ ] Create pages/Categories.jsx
-- [ ] Create hooks/usePosts.js
-- [ ] Create hooks/useCategories.js
-- [ ] Create hooks/useAuth.js
-- [ ] Create context/AuthContext.jsx
+- [x] Create src/App.jsx with React Router setup
+- [x] Create components/Navbar.jsx
+- [x] Create components/Layout.jsx
+- [x] Create components/PostList.jsx
+- [x] Create components/PostDetail.jsx
+- [x] Create components/PostForm.jsx
+- [x] Create components/CategoryList.jsx
+- [x] Create pages/Home.jsx
+- [x] Create pages/Post.jsx
+- [x] Create pages/CreatePost.jsx
+- [x] Create pages/EditPost.jsx
+- [x] Create pages/Categories.jsx
+- [x] Create hooks/usePosts.js
+- [x] Create hooks/useCategories.js
+- [x] Create hooks/useAuth.js
+- [x] Create context/AuthContext.jsx
 
 ## Phase 4: Integration and Data Flow
-- [ ] Integrate API service in components using hooks
-- [ ] Implement forms with validation in PostForm
-- [ ] Add state management for posts/categories in components
-- [ ] Handle loading/error states in components
-- [ ] Implement optimistic updates for better UX
+- [x] Integrate API service in components using hooks
+- [x] Implement forms with validation in PostForm
+- [x] Add state management for posts/categories in components
+- [x] Handle loading/error states in components
+- [x] Implement optimistic updates for better UX
 
 ## Phase 5: Advanced Features
-- [ ] Add auth: Login/Register forms and protected routes
-- [ ] Implement image uploads (multer on server, file input on client)
-- [ ] Add pagination to PostList
-- [ ] Implement search/filtering functionality
-- [ ] Add comments feature (update Post model, add endpoints, UI)
+- [x] Add auth: Login/Register forms and protected routes
+- [x] Implement image uploads (multer on server, file input on client)
+- [x] Add pagination to PostList
+- [x] Implement search/filtering functionality
+- [x] Add comments feature (update Post model, add endpoints, UI)
 
 ## Testing and Documentation
-- [ ] Install dependencies and test server/client setup
-- [ ] Test API endpoints with Postman
-- [ ] Test UI and API integration
-- [ ] Update README.md with setup instructions, API docs, features, screenshots
+- [x] Install dependencies and test server/client setup
+- [x] Test API endpoints with Postman
+- [x] Test UI and API integration
+- [x] Update README.md with setup instructions, API docs, features, screenshots
